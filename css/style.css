@@ -2,123 +2,101 @@ body {
     background-color: rgb(245, 245, 245);
     width: 100%;
     box-sizing: content-box;
+    padding: 0;
+    margin: 0;
 }
+/*header*/
 .fox {
     margin: 1.2rem 0 0 3rem;
-    width: 2.5rem;
-    
+    width: 2.5rem;    
 }
+
 .link {
     text-decoration: none;
     color: black;
-    font-size: 1.2em;
-    font-family: ;
-    
-    
+    font-size: 1.2em;  
 }
+
 .link_1 {
     float: right;
     word-spacing: 1.5rem;
     margin: 1.5rem 4rem 0 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.section_1{
+
+.section_1 {
     margin-top:3rem;
-    /*width: 100%;
-    height: 40rem;*/
     display: inline-block;
-    background-color: rgba(229, 229, 229, 0.501);
-    /*box-sizing: content-box;*/
-    
+    background-color: rgba(229, 229, 229, 0.501);   
 }
+
 .h1_section {
 font-size: 2.5em;  
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
 }
+
 .padding_section {
     padding: 6rem 50rem 3rem 3rem;
-    /*width: 50%;*/
-    /*margin-right: ;*/
-}.text_p_section {
+}
+
+.text_p_section {
     font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .note_p_section {
-    font-size: 1.2em;
-    /*padding-top: 3rem;*/    
+    font-size: 1.2em;    
 }
+
 .note_margin {
     margin-top: 3rem;
 }
+
 .p_2_margin {
     margin-top: 2rem;
 }
+
 .food {
    float: right;
-   /*text-align: right;*/
-   /*display: inline;*/
    width: 50%;
 }
+
+/*menu_left_right*/
 .hand_left {
     width: 2rem;
-    /*display: inline-block;*/
     margin-bottom: -0.6rem;
-    margin-left: 1.7rem;
-   
+    margin-left: 1.7rem;   
 }
-/*.link_menu {
-   text-align: center;
-   margin: auto;
-}*/
-.img_menu{
+
+.img_menu {
     width: 1.5rem;
 }
-/*.img_menu {
 
-}*/
-.link_menu {    
-   /*padding:0 35rem 0 35rem; */
-   /*margin: auto; */ 
-}
 .hand_right {
     width: 2rem;
-    /*display: inline-block;*/
     margin-bottom: -0.6rem;
     margin-right: 1.7rem;
-   
-
 }
-/*.project_position {    
-}*/
-/*.link_right {
-    
-    text-align: justify;
-       
-}*/
+
 .menu_left_right {
     margin-top: 3rem;
-    /*text-align: center;*/
-   
 }
+
 .text_link_right {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
 }
 .text_link_left {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-}
-/*.position_all_links {
-    /*text-align: right;*/    
-    /*display: block;  
-}*/
 .position_right {
-    float: right;
-    
+    float: right;   
 }
+
 .position_left {
     float: left;    
 }
+
 .position_center {
     text-align: center;
 }
@@ -131,66 +109,80 @@ footer {
     margin-top: 3rem;
     padding-bottom: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-
+    padding-left: 100px;
+    padding-right: 100px;
 }
+
 .footer-links-logo-mail {
     display: flex;
     justify-content: space-between; 
     padding-top: 20px;
     padding-bottom: 30px;   
 }
+
 .footer-links-logo-mail h3 {
     font-size: 20px;
 }
+
 .footer-links-logo-mail p a {
     font-size: 10px;
 }
+
 .footer-links-logo-mail a:hover {
     opacity: 0.5;
 }
+
 .footer-links-logo-mail a {
     text-decoration: none;
     color:rgba(255, 255, 255, 0.695);
     font-size: 20px;
 }
+
 .footer-link-3 {
     display: flex;
     flex-direction: column;
-    padding:  10px 150px 0 0px;
+    padding-right: 30px;
     line-height: 30px;    
 }
+
 .footer-link-2 {
     display: flex;
     flex-direction: column;
-    padding: 10px 100px 0 0px;
+    padding-right: 80px;
     line-height: 30px;
 }
+
 .footer-link-1 {
     display: flex;
     flex-direction: column;
-    padding: 10px 0px 0 150px;
     line-height: 30px;
 }
 
 .footer-logo {
-padding-left: 110px;
 font-size: 18px;
-
 }
+
 .footer-logo h3 {
     color: rgba(255, 255, 255, 0.907);
     line-height: 25px;
 }
-.footer-mail p {
-    line-height: 10px;
-     
-}
-.footer-logo p {
+
+.footer-logo  {
     line-height: 30px;
 }
+
 .footer-mail {
-    padding-top: 10px;
-    padding-left: 200px;
-    font-size: 17px;
+    padding-left: 90px;
+    white-space: pre-line;
+    margin-top: -5px;
+}
+
+.footer-mail a:first-child {
+    line-height: 35px;
+}
+.footer-links {
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;    
 }
